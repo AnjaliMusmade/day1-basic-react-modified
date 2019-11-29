@@ -9,5 +9,5 @@ export default function MyButton(props){
     <div>
    <button onClick={props.MyBtnClickHandler}>Click Me</button>
     </div>
-  )
+  );
 }
