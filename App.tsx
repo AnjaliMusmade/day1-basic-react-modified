@@ -38,9 +38,9 @@ export default function App(){
    <InputBoxFocus/><hr/>
    <InputBoxFocusCallBackRef/><hr/>
    <InputBoxFocusClass/><hr/>
+   <MyButtonWrapper MyButtonWrapper={()=>alert("clicked bubbled.")}/>
 
    {
-//   <MyButtonWrapper MyButtonClick={()=>alert("clicked bubbled.")}/>
 //event bubbling not working here.
 
    }
