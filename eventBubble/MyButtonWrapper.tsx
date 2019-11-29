@@ -1,6 +1,6 @@
 import React from 'react';
 
-import CustomButton from '/.eventBubble/MyButton';
+import CustomButton from '.eventBubble/MyButton';
 
 export default function CustomButtonWrapper(props){
   return(
